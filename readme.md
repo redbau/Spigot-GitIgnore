@@ -7,5 +7,5 @@
 
 1. Add this file to your project git repo
 2. run `git add .gitignore && git commit -m 'added gitignore spigot defaults from redbau'`
-3. `` git rm --cached `git ls-files -i --exclude-from=.gitignore` ``
+3. Optionally you can run this to remove files from your repo that shouldn't be in here now: `` git rm --cached `git ls-files -i --exclude-from=.gitignore` ``
 4. That's it! This will keep a lot of crufty files out of your git repo now
