@@ -1,3 +1,16 @@
+# mac files
+.DS_Store
+
+# ignore vscode stuff
+.settings
+.settings/
+.project
+
+# ignore other java files
+bin/
+.classpath
+target/
+
 # Compiled class file
 *.class
 
